@@ -15,5 +15,7 @@ alias red-status="nmcli dev status"
 alias logout="kill -9 -1"
 alias suspender="nmcli radio wifi off && sudo systemctl suspend"
 alias apagar="nmcli radio wifi off && sudo shutdown now"
+alias cspeaker="pacmd set-sink-port 3 '[Out] Speaker'"
+alias cjack="pacmd set-sink-port 3 '[Out] Headphones""
 
 export PATH="$PATH:/opt/nvim-linux64/bin"
