@@ -21,6 +21,13 @@ globalkeys = gears.table.join(
 	awful.key({}, "XF86AudioMute", function()
 		volume_widget.toggle()
 	end),
+
+	awful.key({ "Control" }, "¿", function()
+		volume_widget.inc()
+	end),
+	awful.key({ "Control" }, "|", function()
+		volume_widget.dec()
+	end),
 	-- BRIGHTNESS
 	awful.key({}, "XF86MonBrightnessUp", function()
 		brightness_widget:inc()
@@ -28,17 +35,26 @@ globalkeys = gears.table.join(
 	awful.key({}, "XF86MonBrightnessDown", function()
 		brightness_widget:dec()
 	end, { description = "decrease brightness", group = "custom" }),
+
+	awful.key({ modkey }, "¿", function()
+		brightness_widget:inc()
+	end, { description = "increase brightness", group = "custom" }),
+	awful.key({ modkey }, "|", function()
+		brightness_widget:dec()
+	end, { description = "decrease brightness", group = "custom" }),
+
 	-- Toggle systray
 	awful.key({ modkey, "Shift" }, "-", function()
 		awful.screen.focused().systray.visible = not awful.screen.focused().systray.visible
 	end, { description = "Toggle systray visibility", group = "custom" }),
 	-- APPS
-	awful.key({ modkey, "Shift" }, "{", function()
-		awful.util.spawn("pcmanfm-qt")
-	end, { description = "File Manager", group = "launcher" }),
 	awful.key({ "Shift", modkey }, "s", function()
-		awful.util.spawn("shutter")
+		awful.util.spawn("flameshot")
 	end, { description = "Screenshot", group = "launcher" }),
+	awful.key({ modkey }, "+", function()
+		awful.util.spawn("coomer")
+	end, { description = "Magnifier", group = "launcher" }),
+
 	-------------
 
 	awful.key({ modkey }, "s", hotkeys_popup.show_help, { description = "show help", group = "awesome" }),
