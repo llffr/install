@@ -7,9 +7,6 @@ local volume_widget = require("widgets.volume-widget.volume")
 local brightness_widget = require("widgets.brightness-widget.brightness")
 local calendar_widget = require("widgets.calendar")
 local temperature_widget = require("widgets.temperature")
-local net_widgets = require("net_widgets")
-local batteryarc_widget = require("widgets.battery-arc.battery")
---local cpu_widget = require("widgets.cpu.cpu")
 
 -- Standard awesome library
 local gears = require("gears")
@@ -38,9 +35,6 @@ mytextclock:connect_signal("button::press", function(_, _, _, button)
 		cw.toggle()
 	end
 end)
-
---Internet connection
-net_internet = net_widgets.internet({ indent = 0, timeout = 5 })
 
 -- Create a wibox for each screen and add it
 local taglist_buttons = gears.table.join(
@@ -109,7 +103,7 @@ awful.screen.connect_for_each_screen(function(s)
 	set_wallpaper(s)
 
 	-- Each screen has its own tag table.
-	awful.tag({ "1", "2", "3", "4", "5", "6" }, s, awful.layout.layouts[1])
+	awful.tag({ "1", "2", "3", "4", "5", "6", "7", "8", "9" }, s, awful.layout.layouts[1])
 
 	-- Create a promptbox for each screen
 	s.mypromptbox = awful.widget.prompt()
@@ -160,8 +154,6 @@ awful.screen.connect_for_each_screen(function(s)
 		{ -- Right widgets
 			layout = wibox.layout.fixed.horizontal,
 			--
-			-- cpu_widget(),
-			net_internet,
 			temperature_widget,
 			volume_widget({
 				card = 0,
@@ -173,7 +165,6 @@ awful.screen.connect_for_each_screen(function(s)
 				type = "none",
 				step = 2,
 			}),
-			--batteryarc_widget(),
 			--mykeyboardlayout,
 			wibox.widget.textbox(" "),
 			s.systray,

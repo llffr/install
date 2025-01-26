@@ -7,7 +7,7 @@ local themes_path = os.getenv("HOME") .. "/.config/awesome/"
 
 local theme = {}
 
-theme.font = "sans 8"
+theme.font = "sans 7"
 
 theme.bg_normal = "#0a0a0a"
 theme.bg_focus = "#303030"
@@ -89,7 +89,7 @@ theme.titlebar_maximized_button_focus_inactive = themes_path .. "theme/titlebar/
 theme.titlebar_maximized_button_normal_active = themes_path .. "theme/titlebar/maximized_normal_active.png"
 theme.titlebar_maximized_button_focus_active = themes_path .. "theme/titlebar/maximized_focus_active.png"
 
-theme.wallpaper = themes_path .. "theme/DarkestHour.jpg"
+theme.wallpaper = themes_path .. "theme/mountain.png"
 
 -- You can use your own layout icons like this:
 theme.layout_fairh = themes_path .. "theme/layouts/fairhw.png"
