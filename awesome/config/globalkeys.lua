@@ -14,13 +14,13 @@ globalkeys = gears.table.join(
 	-- AUDIO
 	awful.key({}, "XF86AudioRaiseVolume", function()
 		volume_widget.inc()
-	end),
+	end, { description = "Increase volume", group = "custom" }),
 	awful.key({}, "XF86AudioLowerVolume", function()
 		volume_widget.dec()
-	end),
+	end, { description = "Decrease volume", group = "custom" }),
 	awful.key({}, "XF86AudioMute", function()
 		volume_widget.toggle()
-	end),
+	end, { description = "Mute volume", group = "custom" }),
 
 	awful.key({ "Control" }, "¿", function()
 		volume_widget.inc()
@@ -35,14 +35,6 @@ globalkeys = gears.table.join(
 	awful.key({}, "XF86MonBrightnessDown", function()
 		brightness_widget:dec()
 	end, { description = "decrease brightness", group = "custom" }),
-
-	awful.key({ modkey }, "¿", function()
-		brightness_widget:inc()
-	end, { description = "increase brightness", group = "custom" }),
-	awful.key({ modkey }, "|", function()
-		brightness_widget:dec()
-	end, { description = "decrease brightness", group = "custom" }),
-
 	-- Toggle systray
 	awful.key({ modkey, "Shift" }, "-", function()
 		awful.screen.focused().systray.visible = not awful.screen.focused().systray.visible

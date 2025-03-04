@@ -7,7 +7,7 @@ local themes_path = os.getenv("HOME") .. "/.config/awesome/"
 
 local theme = {}
 
-theme.font = "sans 7"
+theme.font = "sans 8"
 
 theme.bg_normal = "#0a0a0a"
 theme.bg_focus = "#303030"

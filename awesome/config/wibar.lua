@@ -6,7 +6,8 @@ pcall(require, "luarocks.loader")
 local volume_widget = require("widgets.volume-widget.volume")
 local brightness_widget = require("widgets.brightness-widget.brightness")
 local calendar_widget = require("widgets.calendar")
-local temperature_widget = require("widgets.temperature")
+local temp = require("widgets.temp")
+local net = require("widgets.net")
 
 -- Standard awesome library
 local gears = require("gears")
@@ -154,7 +155,8 @@ awful.screen.connect_for_each_screen(function(s)
 		{ -- Right widgets
 			layout = wibox.layout.fixed.horizontal,
 			--
-			temperature_widget,
+			net(),
+			temp,
 			volume_widget({
 				card = 0,
 				step = 2,
@@ -170,7 +172,7 @@ awful.screen.connect_for_each_screen(function(s)
 			s.systray,
 			wibox.widget.textbox(" "),
 			mytextclock,
-			--s.mylayoutbox,
+			s.mylayoutbox,
 		},
 	})
 end)

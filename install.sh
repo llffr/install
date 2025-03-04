@@ -1,8 +1,9 @@
 #!/bin/bash
 
 # coomer is a implementation of [Boomer](https://github.com/tsoding/boomer) in C++.
+# https://github.com/junaire/coomer
 
-# sudo apt install build-essential libgl1-mesa-dev libx11-dev libxext-dev libxrandr-dev libglu1-mesa-dev freeglut3-dev make gcc ripgrep unzip git xclip curl xinput brightnessctl flameshot acpi lxqt-powermanagement awesome btop network-manager transmission flatpak -y
+sudo apt install build-essential libgl1-mesa-dev libx11-dev libxext-dev libxrandr-dev libglu1-mesa-dev freeglut3-dev make gcc ripgrep unzip git xclip curl xinput brightnessctl flameshot acpi lxqt-powermanagement awesome btop network-manager transmission -y
 
 # https://nodejs.org/en/download
 # https://flatpak.org/setup/Debian
