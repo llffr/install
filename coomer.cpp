@@ -8,16 +8,6 @@
 #include <iostream>
 #include <string>
 
-/*Control  |  Description*/
-/*0   |   Reset the application state (position, scale, velocity, etc).*/
-/*q or ESC    |   Quit the application.*/
-/*r   |   Reload configuration.*/
-/*Ctrl + r    |   Reload the shaders (only for Developer mode)*/
-/*f   |   Toggle flashlight effect.*/
-/*Drag with left mouse button  |  Move the image around.*/
-/*Scroll wheel or =/-  |   Zoom in/out.*/
-/*Ctrl + Scroll wheel  |  Change the radious of the flaslight.*/
-
 constexpr auto INITIAL_FL_DELTA_RADIUS = 250.0;
 constexpr auto FL_DELTA_RADIUS_DECELERATION = 10.0;
 constexpr auto VELOCITY_THRESHOLD = 15.0;

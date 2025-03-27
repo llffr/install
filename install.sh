@@ -16,8 +16,8 @@ sudo apt install build-essential libgl1-mesa-dev libx11-dev libxext-dev libxrand
 
 # curl -LO https://github.com/neovim/neovim/releases/latest/download/nvim-linux-x86_64.tar.gz
 # sudo rm -rf /opt/nvim
-# sudo tar -C /opt -xzf nvim-linux64.tar.gz
-# rm nvim-linux64.tar.gz
+# sudo tar -C /opt -xzf nvim-linux-x86_64.tar.gz
+# rm nvim-linux-x86_64.tar.gz
 # git clone https://github.com/llffr/nvim.git
 # sudo mv nvim/ $HOME/.config/
 
@@ -33,3 +33,4 @@ sudo apt install build-essential libgl1-mesa-dev libx11-dev libxext-dev libxrand
 # sudo cp -r jcc /usr/local/bin/ 
 
 # curl -fsSL https://christitus.com/linux | sh
+# https://github.com/ohmybash/oh-my-bash
