@@ -3,7 +3,10 @@
 # coomer is a implementation of [Boomer](https://github.com/tsoding/boomer) in C++.
 # https://github.com/junaire/coomer
 
-sudo apt install build-essential libgl1-mesa-dev libx11-dev libxext-dev libxrandr-dev libglu1-mesa-dev freeglut3-dev make gcc ripgrep unzip git xclip curl xinput brightnessctl flameshot acpi lxqt-powermanagement awesome btop network-manager transmission -y
+sudo apt install \
+    build-essential libgl1-mesa-dev libx11-dev libxext-dev libxrandr-dev libglu1-mesa-dev freeglut3-dev \
+    make gcc ripgrep unzip git xclip curl \
+    xinput brightnessctl flameshot acpi lxqt-powermanagement awesome btop network-manager gimp transmission -y
 
 # https://nodejs.org/en/download
 # https://flatpak.org/setup/Debian
@@ -16,8 +19,8 @@ sudo apt install build-essential libgl1-mesa-dev libx11-dev libxext-dev libxrand
 
 # curl -LO https://github.com/neovim/neovim/releases/latest/download/nvim-linux-x86_64.tar.gz
 # sudo rm -rf /opt/nvim
-# sudo tar -C /opt -xzf nvim-linux64.tar.gz
-# rm nvim-linux64.tar.gz
+# sudo tar -C /opt -xzf nvim-linux-x86_64.tar.gz
+# rm nvim-linux-x86_64.tar.gz
 # git clone https://github.com/llffr/nvim.git
 # sudo mv nvim/ $HOME/.config/
 
@@ -33,3 +36,4 @@ sudo apt install build-essential libgl1-mesa-dev libx11-dev libxext-dev libxrand
 # sudo cp -r jcc /usr/local/bin/ 
 
 # curl -fsSL https://christitus.com/linux | sh
+# https://github.com/ohmybash/oh-my-bash

@@ -8,6 +8,7 @@ local brightness_widget = require("widgets.brightness-widget.brightness")
 local calendar_widget = require("widgets.calendar")
 local temp = require("widgets.temp")
 local net = require("widgets.net")
+local logout_menu = require("widgets.logout-menu.logout-menu")
 
 -- Standard awesome library
 local gears = require("gears")
@@ -172,7 +173,8 @@ awful.screen.connect_for_each_screen(function(s)
 			s.systray,
 			wibox.widget.textbox(" "),
 			mytextclock,
-			s.mylayoutbox,
+			logout_menu(),
+			-- s.mylayoutbox,
 		},
 	})
 end)
