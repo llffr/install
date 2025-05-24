@@ -1,0 +1,135 @@
+! General block rules  
+zonatmo.com##.text-center.my-2.pbi.pbi_t.col-12.col-md-8.offset-md-2 > .m-2 > .thumbnail  
+discord.com##.text-center.my-2.pbi.pbi_t.col-12.col-md-8.offset-md-2 > .m-2 > .thumbnail  
+st.chatango.com##.text-center.my-2.pbi.pbi_t.col-12.col-md-8.offset-md-2 > .m-2 > .thumbnail  
+www.google.com##.text-center.my-2.pbi.pbi_t.col-12.col-md-8.offset-md-2 > .m-2 > .thumbnail  
+
+discord.com##.pbi.my-2.pbi_l_top.text-center  
+st.chatango.com##.pbi.my-2.pbi_l_top.text-center  
+zonatmo.com##.pbi.my-2.pbi_l_top.text-center  
+www.google.com##.pbi.my-2.pbi_l_top.text-center  
+
+discord.com##div.mt-2.text-center:nth-of-type(4)  
+zonatmo.com##div.mt-2.text-center:nth-of-type(4)  
+st.chatango.com##div.mt-2.text-center:nth-of-type(4)  
+www.google.com##div.mt-2.text-center:nth-of-type(4)  
+
+zonatmo.com##.pbi.my-2.pbi_t.text-center.col-12.col-md-4.offset-md-3 > .m-2 > .thumbnail  
+discord.com##.pbi.my-2.pbi_t.text-center.col-12.col-md-4.offset-md-3 > .m-2 > .thumbnail  
+st.chatango.com##.pbi.my-2.pbi_t.text-center.col-12.col-md-4.offset-md-3 > .m-2 > .thumbnail  
+www.google.com##.pbi.my-2.pbi_t.text-center.col-12.col-md-4.offset-md-3 > .m-2 > .thumbnail  
+
+discord.com##.mt-5.text-center  
+zonatmo.com##.mt-5.text-center  
+st.chatango.com##.mt-5.text-center  
+www.google.com##.mt-5.text-center  
+
+zonatmo.com##.m-2 > .thumbnail  
+www.google.com##.m-2 > .thumbnail  
+
+hawk.live##[src*="/images/a/mp/large-en-0203.gif"]  
+hawk.live##[src*="/images/a/mp/medium-en-0203.gif"]  
+
+www.twitch.tv##.Layout-sc-1xcs6mc-0.ceAbGI  
+
+widget.trustpilot.com##._9fcb6a94a9ec._5ad81b8ed9c5._0464070431ae  
+www.studocu.com##._9fcb6a94a9ec._5ad81b8ed9c5._0464070431ae  
+widget.trustpilot.com##._d090be426bcb  
+www.studocu.com##._d090be426bcb  
+
+developer.mozilla.org##.top-banner.fallback  
+interactive-examples.mdn.mozilla.net##.top-banner.fallback  
+
+larepublica.pe##.ad-container.ads_Top-container  
+
+www3.animefenix.tv##div.container:nth-of-type(2)  
+
+twitter.com##.css-175oi2r.r-1habvwh.r-eqz5dr.r-uaa2di.r-ymttw5.r-1f1sjgu  
+
+fextralife.minnit.org##.minnit-chat-iframe  
+eldenring.wiki.fextralife.com##.minnit-chat-iframe  
+fextralife.minnit.org##div.hidden-xs:nth-of-type(3)  
+eldenring.wiki.fextralife.com##div.hidden-xs:nth-of-type(3)  
+
+sso.utp.edu.pe##.slick-slider.slick-initialized  
+class.utp.edu.pe##.slick-slider.slick-initialized  
+class.utp.edu.pe##.sc-bMVAic.bgoKxf  
+sso.utp.edu.pe##.sc-bMVAic.bgoKxf  
+
+www.photopea.com##.flexrow.app > div:nth-of-type(2)  
+
+mangadex.org##.md\:flex-grow.rounded-lg.drop-shadow.rounded.custom-opacity.relative.md-btn.flex.items-center.px-3.overflow-hidden.primary.frosted.glow  
+www.google.com##.md\:flex-grow.rounded-lg.drop-shadow.rounded.custom-opacity.relative.md-btn.flex.items-center.px-3.overflow-hidden.primary.frosted.glow  
+
+developer.mozilla.org##section.place.hp-main:nth-of-type(1) > .pong  
+developer.mozilla.org##section.place.hp-main:nth-of-type(4) > .pong  
+
+www.animefenix.tv##div.container:nth-of-type(2)  
+
+! Additional blocking rules for specific dates  
+! Oct 14, 2024 - https://zonatmo.com  
+zonatmo.com##.col-xl-3.col-lg-4.col-12  
+zonatmo.com###adb-enabled  
+||nakamasweb.com/network.html$subdocument  
+
+! Oct 14, 2024 - https://x.com  
+x.com##.r-ttdzmv.r-vacyoi.css-175oi2r > div.css-175oi2r:nth-of-type(3)  
+
+! Oct 15, 2024 - https://www3.animeflv.net  
+||www3.animeflv.net/assets/animeflv/img/bgb.jpg$image  
+animeflv.net##.AnflvTl  
+
+! Oct 19, 2024 - https://www3.animefenix.tv  
+www3.animefenix.tv##.mb-8.gap-4.grid-cols-2.grid  
+
+! Oct 20, 2024 - https://pivigames.blog  
+pivigames.blog###block-11 > center  
+pivigames.blog###block-13 > center  
+
+! Oct 25, 2024 - https://dota2protracker.com  
+||dota2protracker.com/static/herogrids/grid_banner_large_1.jpg$image  
+dota2protracker.com##.right-5.left-5.gap-2.flex.absolute.slider-middle  
+
+! Jan 8, 2025 - https://hawk.live  
+hawk.live##.match-layout__a-l  
+||hawk.live/images/a/stake-pe/medium-pe-1812.gif$image  
+
+! Jan 12, 2025 - https://zonatmo.com  
+zonatmo.com##.btn-primary.btn.nav-link  
+zonatmo.com##.bg-dark.pt-5  
+
+! Jan 12, 2025 - https://ratiomotor.com  
+ratiomotor.com##.pbl.content.text-center  
+ratiomotor.com##.col-lg-4.col-12  
+
+! Jan 26, 2025 - https://kick.com  
+kick.com##.font-semibold.text-\[13px\].flex-row.flex  
+kick.com##.gap-2.items-center.w-full.flex  
+
+! Feb 15, 2025 - https://kick.com  
+kick.com##.text-base.py-2.px-3.disabled\:opacity-30.disabled\:bg-transparent  
+
+! Mar 3, 2025 - https://zonatmo.com  
+zonatmo.com##div.row:nth-of-type(5) > .mt-5.col  
+dota2protracker.com###odds-feed-1
+zonatmo.com##.pbm.my-2.pbm_l_bottom.text-center
+www3.animeflv.net##[src*="https://animeflv.net/Banner-Tiktok.jpg"]
+www3.animeflv.net##[src*="https://animeflv.net/img/v2_300x100.png"]
+kick.com##.flex.flex-wrap.justify-center.gap-5
+dota2protracker.com##.mb-2.rounded-md
+dota2protracker.com##.flex.flex-col.rounded-md.gap-2.pt-0.mt-4.bg-gradient-to-br.from-5\%.to-90\%.from-purple-900\/20.to-black\/0 > .flex.flex-col.gap-2.w-full
+dota2protracker.com##.flex.flex-col.border.border-white\/10.rounded-lg.p-2.md\:p-6.mb-4.hover\:from-\[\#092A42\]\/100.hover\:to-\[\#071A23\]\/100.font-normal.bg-gradient-to-br.from-\[\#092A42\]\/80.to-\[\#071A23\]\/80
+dota2protracker.com##.border-t.border-white\/20
+zonatmo.com##.alert.alert-info
+dota2protracker.com##.rounded-md.border.border-white\/10.bg-gradient-to-br.from-\[\#092A42\]\/80.to-\[\#071A23\]\/80.p-4
+dota2protracker.com##.sc-fmBCVi.glKpOk.cover-elem.svelte-1o9ulv4
+dota2protracker.com##.sc-bQtKYq.casThx.containerr.svelte-1o9ulv4 > p.svelte-1o9ulv4
+dota2protracker.com##.mt-24.svelte-1o9ulv4 > [href*="/forward"]
+dota2protracker.com##p.svelte-1o9ulv4:nth-of-type(2)
+dota2protracker.com##.footer.svelte-1o9ulv4
+stratz.com##.hitagi__sc-1ah81hi-0.sc-e12f7891-0.gLYubp.jnDUBk
+medium.com##.ud.t.ue.v.uf.ug.uh.ui.uj.uk.ab.q.cn.fk
+class.utp.edu.pe##.sc-gwVKww.kldyOi
+class.utp.edu.pe##.sc-hORach.fPRYni
+class.utp.edu.pe###layout-base >  >  >
+www.studocu.com##._39064e6b79c4
