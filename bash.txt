@@ -1,0 +1,16 @@
+
+#Personal
+
+alias red-restart="sudo service NetworkManager restart"
+alias wifi-list="nmcli device wifi list"
+alias wifi-connect="nmcli --ask dev wifi connect"
+alias wifion="nmcli radio wifi on && nmcli dev status"
+alias wifioff="nmcli radio wifi off && nmcli dev status"
+alias bluetooth-on="sudo systemctl start bluetooth.service"
+alias red-status="nmcli dev status"
+alias logout="kill -9 -1"
+alias suspender="nmcli radio wifi off && systemctl suspend"
+alias cspeaker="pactl set-default-sink 3 && pactl set-sink-port 3 '[Out] Speaker'"
+alias cjack="pactl set-default-sink 3 && pactl set-sink-port 3 '[Out] Headphones'"
+
+export PATH=$HOME/.local/bin:$PATH
